@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "functions": {
+    "api/app.py": {
+      "maxDuration": 30, 
+      "memory": 1024
+    }
+  },
+  "routes": [
+    {
+      "src": "/slack",
+      "dest": "/api/app.py"
+    }
+  ]
+}
